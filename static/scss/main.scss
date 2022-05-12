@@ -1,0 +1,35 @@
+
+$trans-time: 0.5s;
+
+//==============Responsive================
+$pc-media: 1024px;
+$pad-media: 640px;
+$mobile-media: 360px;
+@mixin pc-width() {
+    @media only screen and (min-width: $pc-media) {
+        @content;
+    }
+}
+@mixin pad-width() {
+    @media only screen and (min-width: $pad-media) {
+        @content;
+    }
+}
+@mixin mobile-width() {
+    @media only screen and (min-width: $mobile-media) {
+        @content;
+    }
+}
+
+//===================General======================
+* {
+  box-sizing: border-box;
+  font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+html, body { 
+  height: 100%; margin: 0; padding: 0; 
+}
+
+.main-content{
+  background-color: #cccccc;
+}

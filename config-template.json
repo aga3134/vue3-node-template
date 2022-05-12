@@ -1,0 +1,6 @@
+{
+	"hostname": "YOUR_HOST_NAME",
+	"desc": "template for mini vue3 & nodejs development",
+	"serverPort": 8001,
+	"version": "1.0.0"
+}

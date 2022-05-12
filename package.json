@@ -1,0 +1,27 @@
+{
+  "name": "vue3-node-template",
+  "version": "1.0.0",
+  "description": "mini template for vue3 & nodejs development",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "build-watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aga3134@gmail.com",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
